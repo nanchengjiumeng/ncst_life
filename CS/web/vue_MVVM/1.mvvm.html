@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue_双向绑定</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="msg">
+    {{msg}}
+    <input type="text" v-model="name">
+    {{name}}
+    <div>************</div>
+    <div>{{name}}</div>
+</div>
+</body>
+</html>
+<script src="node_modules/vue/dist/vue.js">
+</script>
+<script>
+    let vm = new Vue({
+        el:'#app',
+        data:{
+            msg:'welcome vue binding show!',
+            name:'hello vue!'
+        }
+    })
+</script>
