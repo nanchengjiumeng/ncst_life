@@ -25,7 +25,9 @@
 #### <regex>
 
 >smatch sm;  //regex_match_result
+>
 >regex(string); //return type -> reg_str
+>
 >regex_match(matched_str,result,reg_str);
 
 result = 》
