@@ -1,0 +1,19 @@
+{
+  "name": "meadowlark",
+  "version": "1.0.0",
+  "description": "for understand express & handlebars",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^3.0.0",
+    "express-generator": "^3.0.0",
+    "express3-handlebars": "^0.5.2",
+    "express4-handlebars": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
