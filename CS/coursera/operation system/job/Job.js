@@ -1,30 +1,32 @@
 require('./CONST');
 
+
+let Job =function(){
+    return {
+        id : null,
+        state : null,
+        createTime : null,
+        runTime : null,
+        exitTime : null,
+        turnAroundTime : null,
+        weightedTurnAroundTime : null,
+        prev : null,
+        next : null,
+    }
+
+    /*this.id = null;
+    this.state = null;
+    this.createTime = null;
+    this.runTime = null;
+    this.exitTime = null;
+    this.turnAroundTime = null;
+    this.weightedTurnAroundTime = null;
+    this.prev = null;
+    this.next = null;*/
+};
+
 if(!global['job_sign']){
         
-        let Job =function(){
-            return {
-               id : null,
-               state : null,
-               createTime : null,
-               runTime : null,
-               exitTime : null,
-               turnAroundTime : null,
-               weightedTurnAroundTime : null,
-               prev : null,
-               next : null,
-            }
-            
-            /*this.id = null;
-            this.state = null;
-            this.createTime = null;
-            this.runTime = null;
-            this.exitTime = null;
-            this.turnAroundTime = null;
-            this.weightedTurnAroundTime = null;
-            this.prev = null;
-            this.next = null;*/
-        };
 
     global.createJob = (id, createTime, runTime) => {
             let job = Job();
@@ -97,7 +99,7 @@ if(!global['job_sign']){
         };
         //Highest Response-ratio Next
     global.hrnJobInQueue=(queue)=>{
-            let systemTime =null;
+            let systemTime = global.systemTime;
             let hrnJob =null;
             let job =null;
             let hrn =null;
@@ -138,5 +140,6 @@ if(!global['job_sign']){
 }else {
     global['job_sign']=true;
 }
+module.exports ={ Job };
 
 

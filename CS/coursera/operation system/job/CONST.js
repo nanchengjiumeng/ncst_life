@@ -40,6 +40,8 @@ if (global['CONST']) {
     global.TRUE = 1;
     global['CONST'] = true;
 
+    global.systemTime = 0;
+
 }
 
 function rand() {
