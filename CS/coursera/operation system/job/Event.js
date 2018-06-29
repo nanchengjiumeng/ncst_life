@@ -1,20 +1,21 @@
-require('CONST');
+require('./CONST');
 let Event = function () {
-    return {
-        time: null,
-        type: null,
-        jobID: null,
-        prev: null,
-        next: null,
-    };
+
+        this.time=null;
+        this.type=null;
+        this.jobID=null;
+        this.prev=null;
+        this.next=null;
+
 };
 if (!global['event_sign']) {
     global.createEvent = function (time, type) {
-        let e = Event();
+        let e = new Event();
         e.time = time;
         e.type = type;
         e.jobID = 0;
         e.prev = e.next = e;
+        return e;
     };
 
     global.destroyEvent = function (event) {
@@ -48,21 +49,21 @@ if (!global['event_sign']) {
     };
 
     global.printEvent = function (e) {
-        console.log(e.time);
+        let str;
         switch (e.type) {
             case JOBCREATEEVENT:
-                console.log("jobcreate   ");
+                str = "jobcreate   ";
                 break;
             case JOBSCHEDULEEVENT:
-                console.log("jobschedule ");
+                str = "jobschedule ";
                 break;
             case JOBEXITEVENT:
-                console.log("jobexit     ");
+                str = "jobexit     ";
                 break;
             default:
-                console.log("unknown event");
+                str = "unknown event";
         }
-        console.log(", id=", e.jobID);
+       console.log(e.time,str, 'id=', e.jobID);
     };
 
     global.printEventQueue = function (queue) {
@@ -89,18 +90,24 @@ if (!global['event_sign']) {
     };
 
     global.addEventToQueue = function (event, queue) {
-        let e = null;
+        let e =queue.next;
+
+
         if(isEmptyEventQueue(queue)){
             queue.next = queue.prev = event;
             event.prev = event.next = queue;
+            return;
         }
-        for (e=queue.next;e!==queue && e.time<=event.time;e=e.next){
+        for (;e!==queue && e.time<=event.time;e=e.next){
 
         }
+
         event.next = e;
         event.prev = e.prev;
         e.prev.next = event;
         e.prev = event;
+
+
     };
 
     global.frontAddEventToQueue = function (event, queue) {
@@ -109,6 +116,8 @@ if (!global['event_sign']) {
         if (isEmptyEventQueue(queue)) {
             queue.next = queue.prev = event;
             event.prev = event.next = queue;
+
+            return;
         }
 
         for (e = queue.next; e !== queue && e.time < event.time; e = e.next){

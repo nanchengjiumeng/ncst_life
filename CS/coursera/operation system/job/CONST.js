@@ -4,11 +4,11 @@ if (global['CONST']) {
     // max job create time interval( 间隔 )
     global.MAXJOBCREATETIMEINTERVAL = 50;
     // next job create time interval
-    global.NEXTJOBCREATETIMEINTERVAL = (rand() % MAXJOBCREATETIMEINTERVAL + 1);
+    global.NEXTJOBCREATETIMEINTERVAL = Math.floor((rand() * MAXJOBCREATETIMEINTERVAL + 1));
     // max job runtime
     global.MAXJOBRUNTIME = 100;
     //next job runtime
-    global.NEXTJOBRUNTIME = (rand() % MAXJOBRUNTIME + 1);
+    global.NEXTJOBRUNTIME = rand_run_time;
 
     //job backup state
     global.JOBBACKUPSTATE = 1;
@@ -41,12 +41,22 @@ if (global['CONST']) {
     global['CONST'] = true;
 
     global.systemTime = 0;
+    global.jobId= 1;
+    global.eventQueue = null;
+    global.exitEventQueue = null;
+    global.cpu = null;
+    global.jobQueue = null;
+    global.exitJobQueue = null;
 
 }
 
 function rand() {
     return Math.random();
 }
+function rand_run_time() {
+   return Math.floor((rand() * MAXJOBRUNTIME + 1));
+}
+
 
 
 
