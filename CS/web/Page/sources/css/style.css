@@ -1,0 +1,384 @@
+/*   color:  rgb(0, 196, 2) 亮绿
+             rgb(1, 161, 3) 单选框
+             115,223,117
+             20,201,22
+             43,206,45
+
+
+                padding: 2rem 2rem;
+  */
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    background: rgb(243, 242,242);
+}
+a {
+    color: black;
+    text-decoration:none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+ol,li{
+    list-style: none;
+}
+.green{
+    color: rgb(0, 196, 2);
+}
+.btn a{
+    border:.1rem solid gray;
+    padding: .4rem;
+}
+
+
+
+
+header{
+    font-size: 1.5rem;
+    height: 4rem;
+    padding: 1rem 0;
+    width: 100%;
+    background:rgb(0, 196, 2);
+    color: #fff;
+    display: flex;
+    display: -webkit-flex;
+}
+
+header a{
+    color:#fff;
+}
+header .brand{
+    margin-left: 2rem;
+    height: 100%;
+    flex-grow: 1;
+}
+header .search{
+    height: 100%;
+    flex-grow: 3;
+}
+header .login{
+    height: 100%;
+    flex-grow: 1;
+}
+header .login a{
+    height: 1.5rem;
+    padding: .5rem;
+    display: inline-block;
+    border: .1rem solid rgb(43,206,45) ;
+    background: rgb(20,201,22);
+    font-size: 1rem;
+}
+header .search {
+    height: 100%;
+    line-height: 100%;
+}
+header .search label{
+    height: 100%;
+}
+header .search{
+    display: flex;
+    display: -webkit-flex;
+}
+header .search .using-options{
+    flex-grow: 1;
+    padding: 1rem;
+}
+header .search . .using-options .using-option{
+    margin: .2rem;
+    font-size: 1rem;
+    line-height: 100%;
+    height: 100%;
+}
+header .search .search-frame{
+    flex-grow: 3;
+}
+header .search .search-frame input{
+    float: left;
+    height: 100%;
+    width: 50%;
+    font-size: 1.5rem;
+    border: none;
+}
+#pen{
+    float: left;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-left:.1rem solid gray;
+    background-color: #fff;
+    background-size: 100% 100%;
+}
+#search{
+    float: left;
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border-left:.1rem solid gray;
+    background-color: #fff;
+    background-size: 100% 100%;
+
+}
+#pen img,#search img{
+    margin: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+
+/*
+    242, 242, 243
+*/
+
+
+.main-frame{
+
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    background: rgb(222, 242, 222);
+
+}
+.main-frame .left-frame{
+    flex-grow:0;
+    border-right: .1rem solid gray;
+}
+.main-frame .left-frame .content{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+.main-frame .left-frame .content>ol{
+    display: -webkit-flex;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-frame .left-frame .content>ol .funcs,
+.main-frame .left-frame .content>ol .line-dict{
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    border-bottom: .1rem solid gray;
+}
+
+
+.main-frame .left-frame .content>ol .funcs p,
+.main-frame .left-frame .content>ol .line-dict p
+{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+}
+.main-frame .left-frame .content>ol .funcs p a,
+.main-frame .left-frame .content>ol .line-dict p a{
+    margin-left: 2rem;
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+
+}
+
+
+.main-frame .left-frame .content>ol .items{
+    flex-grow: 5;
+    border-bottom: .1rem solid gray;
+}
+.main-frame .left-frame .content>ol .item{
+    display: flex;
+
+    flex-direction: column;
+}
+.main-frame .left-frame .content>ol .item ul{
+    display: none;
+}
+.main-frame .left-frame .content>ol .item ul li,
+.main-frame .left-frame .content>ol .item p{
+    height: 3rem;
+    width: 100%;
+    padding-left: 2rem;
+    line-height: 3rem;
+    border-bottom: .1rem solid gray;
+}
+.main-frame .left-frame .content>ol .item p{
+    color: gray;
+}
+
+
+
+.main-frame .left-frame .content>ol .item ul li{
+    height: 3rem;
+}
+.main-frame .left-frame .content>ol .items ol{
+
+}
+.main-frame .left-frame .content>ol .line-dict{
+    flex-grow: 1;
+
+}
+.main-frame .right-frame{
+    position: relative;
+    flex-grow: 11;
+    background: rgb(243, 242, 242);
+}
+#close,#open{
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    left: -.1rem;
+    height: 5rem;
+    width: 2rem;
+    background: #fff;
+    border:.1rem solid gray;
+    border-radius: .2rem;
+    align-items: center;
+}
+#open{
+    display: none;
+}
+
+
+
+.main-frame .right-frame .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.main-frame .right-frame .content-body{
+    display: flex;
+    display: -webkit-flex;
+    margin: 2rem 4rem;
+    flex-grow: 7;
+    background: #fff;
+    border-radius: .2rem;
+    border: .1rem solid gray;
+}
+
+
+/*字典内容*/
+.main-frame .right-frame .content-body .cont{
+    flex-grow: 1;
+    border-right: .1rem solid gray;
+
+}
+.main-frame .right-frame .content-body .cont .cont-item{
+    height: 16rem;
+    margin: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: .2rem solid gray;
+}
+.main-frame .right-frame .content-body .cont .cont-item img{
+     float: left;
+     margin: 2rem;
+     width: 14rem;
+     height: 14rem;
+ }
+.main-frame .right-frame .content-body .cont .cont-item .right{
+    height: 100%;
+    margin : 2rem 2rem 2rem 20rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+.main-frame .right-frame .content-body .cont .cont-item .right p,
+.main-frame .right-frame .content-body .cont .cont-item .right h2,
+.main-frame .right-frame .content-body .cont .cont-item .right div{
+    flex-grow: 1;
+}
+.main-frame .right-frame .content-body .cont .cont-item .right p{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+
+}
+.main-frame .right-frame .content-body .cont .cont-item .right  .c,
+.main-frame .right-frame .content-body .cont .cont-item .right  .btn a{
+    color: gray;
+}
+.main-frame .right-frame .content-body .cont .cont-item .right h2,
+.main-frame .right-frame .content-body .cont .cont-item .right div{
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+
+}
+
+/*右边功能栏*/
+.main-frame .right-frame .content-body .side {
+
+    width: 20rem;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.main-frame .right-frame .content-body .side>div{
+
+}
+.main-frame .right-frame .content-body .side .side-top{
+    flex: 2;
+    background: red;
+}
+.main-frame .right-frame .content-body .side .side-middle{
+    flex: 1;
+    border-bottom: .1rem solid gray;
+}
+.main-frame .right-frame .content-body .side .side-middle h3,
+.main-frame .right-frame .content-body .side .side-middle p{
+    margin-left: 2rem;
+    line-height: 1.5rem;
+}
+.main-frame .right-frame .content-body .side .side-middle h3{
+    height: 3rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+}
+.main-frame .right-frame .content-body .side .side-bottom{
+    flex: 3;
+    display: flex;
+    flex-shrink: 1;
+    display: -webkit-flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main-frame .right-frame .content-body .side .side-bottom .qr img{
+    margin-top: 1rem;
+    border: none;
+    height: 15rem;
+    width: 15rem;
+}
+
+
+
+/*footer*/
+.main-frame .right-frame .footer{
+    flex-grow: 1;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+.main-frame .right-frame .footer span{
+    margin: .5rem;
+    color: gray;
+}
+
+
+
+
+
+
+

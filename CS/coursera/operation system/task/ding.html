@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+            background: darkgray;
+        }
+        ul,li{
+            list-style: none;
+        }
+        .box{
+            height: 80%;
+            width: 80%;
+            padding: 5% 10%;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .left,.right{
+            height: 100%;
+            width: 100%;
+        }
+        .left .info{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+        }
+        .left .info li{
+            height: 100%;
+            width: 100%;
+            color: black;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .left .info li b{
+            font-size: 10px;
+            font-style: normal;
+        }
+        b.unit{
+            margin-left: 3%;
+            color: rgb(66,66,66);
+        }
+
+        .box .right h2{
+            font-size: 15px;
+        }
+        .box .right{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+        }
+        .r_t{
+            height: 30%;
+        }
+        .r_b{
+            height: 70%;
+        }
+        .r_b .btn{
+            height: 100%;
+            width: 100%;
+        }
+
+        .r_b input{
+            margin: 3%;
+            height: 40%;
+            width: 40%;
+            border-radius: 5%;
+            background: rgb(66,66,66);
+            color: white;
+            box-shadow: 2px 3px 5px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left">
+        <ul class="info">
+            <li><b>温度：</b>100 <b class="unit">度</b></li>
+            <li><b>温度：</b>100 <b class="unit">度</b></li>
+            <li><b>温度：</b>100 <b class="unit">度</b></li>
+            <li><b>温度：</b>100 <b class="unit">度</b></li>
+            <li><b>温度：</b>100 <b class="unit">度</b></li>
+        </ul>
+    </div>
+    <div class="right">
+        <div class="r_t">
+            <h2>Ding`s special use!</h2>
+        </div>
+        <div class="r_b">
+            <form action="" class="btn" >
+                <label>
+                    <input type="button" value="丁丁"/>
+                </label>
+                <label>
+                    <input type="button" value="btn2"/>
+                </label>
+                <label>
+                    <input type="button" value="btn3"/>
+                </label>
+                <label>
+                    <input type="button" value="btn4"/>
+                </label>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

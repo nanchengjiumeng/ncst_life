@@ -90,7 +90,7 @@ if (!global['job_sign']) {
             return null;
         } else {
             for (shortJob = queue.next, job = shortJob.next; job !== queue; job = job.next) {
-                if (job.runTime < shortJob.run()) {
+                if (job.runTime < shortJob.runTime) {
                     shortJob = job;
                 }
             }

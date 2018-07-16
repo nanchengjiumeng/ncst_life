@@ -14,6 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ding.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task/ding.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1659">
+              <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CONST.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job/CONST.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -23,11 +32,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Cpu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/job/Cpu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Job.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/job/Job.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="118" column="6" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="118" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Handle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job/Handle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="777">
+              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -36,24 +63,15 @@
         <entry file="file://$PROJECT_DIR$/job/Event.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1722">
-              <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/job/Job.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobSch.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JobSch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/job/JobSch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="525">
               <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
@@ -62,8 +80,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="189">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -74,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -92,7 +111,7 @@
       <find>jobId</find>
       <find>console</find>
       <find>console.log</find>
-      <find />
+      <find>console</find>
       <find>createEvent</find>
       <find>/</find>
       <find>//</find>
@@ -101,7 +120,7 @@
     <replaceStrings>
       <replace>,</replace>
       <replace>.</replace>
-      <replace />
+      <replace>new Job()</replace>
       <replace>;</replace>
     </replaceStrings>
   </component>
@@ -110,12 +129,13 @@
       <list>
         <option value="$PROJECT_DIR$/job/index.js" />
         <option value="$PROJECT_DIR$/job/Cpu.js" />
-        <option value="$PROJECT_DIR$/job/Job.js" />
         <option value="$PROJECT_DIR$/job/Event.js" />
         <option value="$PROJECT_DIR$/job/CONST.js" />
         <option value="$PROJECT_DIR$/job/Handle.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/job/JobSch.js" />
+        <option value="$PROJECT_DIR$/task/ding.html" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/job/Job.js" />
       </list>
     </option>
   </component>
@@ -128,10 +148,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="345" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-85" />
+    <option name="y" value="-13" />
     <option name="width" value="1405" />
-    <option name="height" value="1021" />
+    <option name="height" value="1078" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -153,9 +174,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.4.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/competition" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -202,25 +224,28 @@
       <workItem from="1530145451635" duration="11591000" />
       <workItem from="1530170669572" duration="6345000" />
       <workItem from="1530177041904" duration="126000" />
-      <workItem from="1530234287875" duration="7251000" />
+      <workItem from="1530234287875" duration="7631000" />
+      <workItem from="1530324537786" duration="2772000" />
+      <workItem from="1530328579716" duration="709000" />
+      <workItem from="1530434021658" duration="2540000" />
+      <workItem from="1530755465559" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33119000" />
+    <option name="totallyTimeSpent" value="39545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12864584" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50035995" side_tool="true" weight="0.32988507" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.43696582" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32158118" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49964002" weight="0.30769232" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49964002" weight="0.30379745" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.36026937" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,6 +272,76 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/task/ding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/CONST.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Cpu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Handle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/JobSch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Job.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2478">
+          <caret line="118" column="6" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="118" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/ding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task/ding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/job/CONST.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -265,9 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#606#1157#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -278,13 +370,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/job/index.js" />
     <entry file="file://$PROJECT_DIR$/job/JobSch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -310,9 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#606#1157#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -323,13 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/job/index.js" />
     <entry file="file://$PROJECT_DIR$/job/JobSch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
@@ -379,13 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/job/index.js" />
     <entry file="file://$PROJECT_DIR$/job/Job.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2856">
@@ -400,27 +471,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/index.js">
+    <entry file="file://$PROJECT_DIR$/job/index.js" />
+    <entry file="file://$PROJECT_DIR$/task/ding.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="1659">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/Cpu.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#606#1157#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job/Job.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="189">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -431,31 +493,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/Event.js">
+    <entry file="file://$PROJECT_DIR$/job/Cpu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/job/Handle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="21">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/job/JobSch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="525">
           <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Handle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Job.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="118" column="6" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="118" selection-end-column="6" />
         </state>
       </provider>
     </entry>

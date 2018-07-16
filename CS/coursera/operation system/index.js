@@ -7,4 +7,4 @@ let { main }  = require('./job/JobSch');
 *   cpu type ->  fcfs || sjf || hrn
 *
 * */
-main(10,'hrn');
+main(10,'sjf');
