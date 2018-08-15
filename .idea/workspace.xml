@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4583d1b2-d181-4361-a095-8f210f8aa29f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CS/Utils/JqueryVM/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" beforeDir="false" afterPath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,43 +25,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="js" value="1" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2969" />
+          <entry key="js" value="5788" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2969" />
+          <entry key="JavaScript" value="5788" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="367" column="5" lean-forward="true" selection-start-line="367" selection-start-column="5" selection-end-line="367" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,6 +71,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>console</find>
+      <find>getJSON</find>
+      <find>fadeIn</find>
+      <find>AddClass</find>
+      <find>Off</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,12 +211,12 @@
       <workItem from="1517917933974" duration="8363000" />
       <workItem from="1518444415373" duration="714000" />
       <workItem from="1533972474248" duration="6171000" />
-      <workItem from="1534226829578" duration="3858000" />
+      <workItem from="1534226829578" duration="10357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25535000" />
+    <option name="totallyTimeSpent" value="32034000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -302,6 +295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#492#530#0" />
+            <element signature="e#577#610#0" />
+            <element signature="e#657#991#0" />
+            <element signature="e#1044#1168#0" />
+            <element signature="e#1186#1268#0" />
+            <element signature="e#1299#2994#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -328,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="204" column="18" selection-start-line="204" selection-start-column="18" selection-end-line="204" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="367" column="5" lean-forward="true" selection-start-line="367" selection-start-column="5" selection-end-line="367" selection-end-column="5" />
         </state>
       </provider>
     </entry>

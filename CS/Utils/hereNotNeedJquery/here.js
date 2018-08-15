@@ -1,7 +1,10 @@
 function f() {
 
 
-    /* json
+
+    /*
+            AJAX
+    json
 
     $.getJSON('/my/url', function(data) {
     });
@@ -49,7 +52,7 @@ function f() {
     }
 
 
-    /* effects */
+    /* EFFECTS */
 
     function fadeIn(el) {
         el.style.opacity = 0;
@@ -77,6 +80,8 @@ function f() {
         el.style.display = '';
     }
 
+
+    /* ELEMENTS */
     function AddClass(el, className) {
         if (el.classList) {
             el.classList.add(className)
@@ -145,7 +150,7 @@ function f() {
         return el.innerHTML;
     }
 
-    function getStyle(el,ruleName) {
+    function getStyle(el, ruleName) {
         return getComputedStyle(el)[ruleName];
     }
 
@@ -153,30 +158,30 @@ function f() {
         return el.textContent;
     }
 
-    function hasClass( el,className ) {
-        if(el.classList){
+    function hasClass(el, className) {
+        if (el.classList) {
             el.classList.contains(className);
-        }else {
-            new RegExp('(^| )'+className+'( |$)','gi').test(el.Name);
+        } else {
+            new RegExp('(^| )' + className + '( |$)', 'gi').test(el.Name);
         }
     }
 
-    function Matches( el, otherEl ) {
+    function Matches(el, otherEl) {
         return el === otherEl;
     }
 
-    function MatchesSelector(el,selector) {
-        var matches = function(el, selector) {
+    function MatchesSelector(el, selector) {
+        var matches = function (el, selector) {
             return (el.matches || el.matchesSelector || el.msMatchesSelector || el.mozMatchesSelector || el.webkitMatchesSelector || el.oMatchesSelector).call(el, selector);
         };
 
         matches(el, selector);
     }
-    
+
     function Next(el) {
         el.nextElementSibling;
     }
-    
+
     function Offset(el) {
         var rect = el.getBoundingClientRect();
 
@@ -189,13 +194,13 @@ function f() {
     function OffsetParent(el) {
         return el.offsetParent || el;
     }
-    
+
     function outerHeight(el) {
         return el.offsetHeight;
     }
-    
+
     function outerHeightWithMargin(el) {
-        var h  = el.offsetHeight;
+        var h = el.offsetHeight;
         var style = getComputedStyle(el);
 
         h += parseInt(style.marginTop) + parseInt(style.marginBottom);
@@ -203,15 +208,208 @@ function f() {
     }
 
     // outer width
+    function Parent(el) {
+        return el.parentNode;
+    }
+
+    function Position(el) {
+        return {
+            left: el.offsetLeft,
+            top: el.offsetTop
+        }
+    }
+
+    function positionRelativeToViewport(el) {
+        return el.getBoundingClientRect();
+    }
+
+    function Prepend(parent, el) {
+        parent.insertBefore(el, parent.firstChild);
+    }
+
+    function Prev(el) {
+        el.previousElementSibling;
+    }
+
+    function Remove(el) {
+        el.parentNode.removeChild(el);
+    }
+
+    function replaceFromHTML(el, string) {
+        el.outerHTML = string;
+    }
+
+    function setAttribute(el, attrName, attrValue) {
+        el.setAttribute(attrName, attrValue);
+    }
+
+    function setHTML(el, string) {
+        el.innerHTML = string;
+    }
+
+    function setStyle(el, styleName, value) {
+        el.style[styleName] = value;
+    }
+
+    function setText(el, string) {
+        el.textContent = string;
+    }
+
+    function Siblings(el) {
+        return Array.prototype.filter(el.parentNode.children, function (child) {
+            return child !== el;
+        })
+    }
+
+    function toggleClass(el, className) {
+        if (el.classList) {
+            el.classList.toggle(className);
+        } else {
+            var classes = el.className.split(' ');
+            var existingIndex = classes.indexOf(className);
+
+            if (existingIndex >= 0) {
+                classes.splice(existingIndex, 1);
+            } else {
+                classes.push(className);
+            }
+
+            el.className = classes.join(' ');
+        }
+    }
+
+
+    /* Events */
+    function Off(el, eventName, eventHandler) {
+        el.removeEventListener(eventName, eventHandler);
+    }
+
+    function On(el, eventName, eventHandler) {
+        el.addEventListener(eventName, eventHandler);
+    }
+
+    function Ready(fn) {
+        if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+            fn();
+        } else {
+            document.addEventListener('DOMContentLoaded', fn);
+        }
+    }
+
+    function triggerCustom(el, eventName, data) {
+        var event;
+        if (window.CustomEvent) {
+            event = new CustomEvent(eventName, {detail: data});
+        } else {
+            event = document.createEvent('CustomEvent');
+
+            /*( in DOMString type, in boolean canBubble, in boolean cancelable, in any detail )*/
+            event.initCustomEvent(eventName, true, true, {some: data});
+        }
+        el.dispatchEvent(event);
+    }
+    
+    function triggerNative(el) {
+        var event = document.createEvent('HTMLEvents');
+        event.initEvent('change',true,false);
+        el.dispatchEvent(event);
+    }
+
+    /*Utils*/
+    function Bind(fn,context) {
+        fn.bind(context);
+    }
+
+    function arrayEach(arr,fn) {
+        arr.forEach(fn);
+    }
+
+    function deepExtend(out) {
+        out = out||{};
+        for(var i=0; i<arguments.length;++i){
+             if(!arguments[i]){
+                 continue;
+             }
+             var obj = arguments[i];
+             for(var key in obj){
+                 if(obj.hasOwnProperty(key)){
+                     if(typeof  obj[key] === 'object'){
+                         out[key] = deepExtend(out[key],obj[key]);
+                     }else{
+                         out[key] = arguments[i][key];
+                     }
+                 }
+             }
+        }
+        return out;
+    }
+
+    function Extend(out) {
+         out = out||{};
+        for(var i=0; i<arguments.length;++i){
+            if(!arguments[i]){
+                continue;
+            }
+            for(var key in arguments[i]){
+                if(arguments[i].hasOwnProperty(key)){
+                    out[key] = arguments[i][key];
+                }
+            }
+        }
+        return out;
+    }
+
+    function indexOf(array,item) {
+        return array.indexOf(item);
+    }
+
+    function isArray(arr) {
+        return Array.isArray(arr);
+    }
+
+
+    /* UTILS */
+    function Map(arr,fn) {
+        return arr.map(fn);
+    }
+
+    function Now() {
+        return Date.now();
+    }
+
+    function parseHTML(htmlString) {
+        var temp = document.implementation.createHTMLDocument();
+        temp.body.innerHTML = htmlString;
+        return temp.body.children;
+    }
+
+    function parseJSON( jsonString ) {
+        return JSON.parse(jsonString);
+    }
+
+    function Trim(string) {
+        string.trim();
+    }
+
+    function Type(obj) {
+        Object.prototype.toString.call(obj).replace(/^\[object (.+)\]$/, '$1').toLowerCase();
+    }
+
+    
 
 
     return {
+        /*AJAX*/
         getJSON: getJSON,
         Post: Post,
         Request: Request,
+
+        /*EFFECTS*/
         fadeIn: fadeIn,
         Hide: Hide,
         Show: Show,
+
+        /*ELEMENTS*/
         AddClass: AddClass,
         After: After,
         Append: Append,
@@ -223,21 +421,51 @@ function f() {
         Each: Each,
         Empty: Empty,
         Filter: Filter,
-        FindChildren:FindChildren,
-        FindElements:FindElements,
-        getAttribute:getAttribute,
-        getHTML:getHTML,
-        getStyle:getStyle,
-        getText:getText,
-        hasClass:hasClass,
-        Matches:Matches,
-        MatchesSelector:MatchesSelector,
-        Next:Next,
-        Offset:Offset,
-        OffsetParent:OffsetParent,
-        outerHeight:outerHeight,
-        outerHeightWithMargin:outerHeightWithMargin,
+        FindChildren: FindChildren,
+        FindElements: FindElements,
+        getAttribute: getAttribute,
+        getHTML: getHTML,
+        getStyle: getStyle,
+        getText: getText,
+        hasClass: hasClass,
+        Matches: Matches,
+        MatchesSelector: MatchesSelector,
+        Next: Next,
+        Offset: Offset,
+        OffsetParent: OffsetParent,
+        outerHeight: outerHeight,
+        outerHeightWithMargin: outerHeightWithMargin,
+        Parent: Parent,
+        Position: Position,
+        positionRelativeToViewport: positionRelativeToViewport,
+        Prepend: Prepend,
+        Prev: Prev,
+        Remove: Remove,
+        replaceFromHTML: replaceFromHTML,
+        setAttribute: setAttribute,
+        setHTML: setHTML,
+        setStyle: setStyle,
+        setText: setText,
+        Siblings: Siblings,
+        toggleClass: toggleClass,
 
+        /* EVENTS */
+        Off: Off,
+        On: On,
+        Ready: Ready,
+        triggerCustom: triggerCustom,
+        triggerNative:triggerNative,
+        Extend:Extend,
+        deepExtend:deepExtend,
+        indexOf:indexOf,
+        isArray:isArray,
+
+        /* UTILS */
+        Map:Map,
+        Now:Now,
+        parseHTML:parseHTML,
+        parseJSON:parseJSON,
+        Trim:Trim
     }
 }
 
