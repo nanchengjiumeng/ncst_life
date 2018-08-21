@@ -4,6 +4,11 @@ my code during computer science
 - CS
   - PAT
     - basic_level
-  - COURSERA
+  - coursera
     - algorithm&data struct 
       - assignment
+  - Utils 
+    - hereNotNeedJquery
+    - jQuery VM
+  - WxSN WX公众号-.-
+     

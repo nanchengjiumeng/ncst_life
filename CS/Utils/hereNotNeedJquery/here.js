@@ -395,8 +395,6 @@ function f() {
         Object.prototype.toString.call(obj).replace(/^\[object (.+)\]$/, '$1').toLowerCase();
     }
 
-    
-
 
     return {
         /*AJAX*/
@@ -466,6 +464,17 @@ function f() {
         parseHTML:parseHTML,
         parseJSON:parseJSON,
         Trim:Trim
+    }
+}
+
+var HereNotNeddJQueryUtilsObj = {};
+
+function getUtils() {
+    if(!HereNotNeddJQueryUtilsObj){
+        HereNotNeddJQueryUtilsObj = f();
+        return HereNotNeddJQueryUtilsObj;
+    }else{
+        return HereNotNeddJQueryUtilsObj;
     }
 }
 
