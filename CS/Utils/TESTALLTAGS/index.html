@@ -133,12 +133,32 @@ The word <bdo dir="rtl">Hello</bdo> is "Hello" spelled backwards.
 </ul>
 Type <code>npm install</code> in your terminal to install a project's dependencies.
 If you want to learn HTML and CSS, go read <cite>MarkSheet.io</cite>!
+<details>
+    <summary>Read more</summary>
+    <p style="background: red">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+</details>
 
+<dl>
+    <dt>Web</dt>
+    <dd>The part of the Internet that contains websites and web pages</dd>
+    <dt>HTML</dt>
+    <dd>A markup language for creating web pages</dd>
+    <dt>CSS</dt>
+    <dd>A technology to make HTML look better</dd>
+</dl>
+
+<dialog>
+    This is a dialog box!
+</dialog>
+
+To write abbreviations, use the <del datetime="" cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym">acronym</del> <ins>abbr</ins> HTML element.
 </body>
 </html>
 <script>
     function f(e) {
         console.log(document.querySelector('#audio').volume='0.5');
+        console.log(document.querySelector('dialog'));
+        document.querySelector('dialog').open = false;
     }
     f()
 

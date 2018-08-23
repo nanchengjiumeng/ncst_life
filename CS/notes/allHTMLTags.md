@@ -69,9 +69,119 @@ Makes an element bold :  emphasis on **style**
 
 ### bdi
 
+### bdo
+
+
+
+### blockquote
+
+-cite: URL 块内内容的源位置
+
+
 
 ### body
+
 The container for a web page's content. Must be a direct child of <html>, and must be an ancestor of all HTML elements (except where noted).
+
+### br 
+
+换行标签
+
+
+
+### button
+
+- name 
+- value 
+- type : "submit"/ "reset"
+- disabled
+- autofocus
+
+
+
+## C
+
+### canvas
+
+- width
+- height
+
+
+
+###  caption
+
+Defines the tittle of  a<table>
+
+
+
+###  cite
+
+Defines the source of a creative work
+
+
+
+### code 
+
+```markdown
+defines a snippet of code with a block of text.
+```
+
+
+
+### col
+
+定义table中的一个列
+
+
+
+### colgroup
+
+定义 一组 <col>
+
+
+
+## D
+
+### data
+
+- value=val   val can be typed any type value, like numbers, alse text.
+
+
+
+### datalist
+
+可以定义一组下拉选项，通过属性id标识，在input标签同通过 list=id 引用.
+
+
+
+### dl,dt,dd
+
+<dl> 列表标签下的 item <dd>
+
+### del 
+
+Defines text that hsa been deleted  ， 标签中的文本内容加中线
+
+- cite 源地址
+- datetime 时间类型的字符串 
+
+### details 
+
+open = "true"/"false" details块是否展开,默认为false
+
+### dfn 
+
+inline-block block内为网站名文本
+
+### dialog
+
+定义一个弹窗标签 可用Javscript设置其 open值控制其是否可见
+
+### div
+
+定义一个块
+
+
 
 
 ### html
@@ -95,3 +205,17 @@ Opens in the top browsing context, or _self is there is none.
 - [x] base
 - [x] bdi
 - [x] bdo
+- [x] blockquote
+- [x] body
+- [x] br 
+- [x] button
+- [ ] canvas
+- [ ] caption
+- [ ] cite
+- [ ] details 
+- [ ] dfn 
+- [ ] dialog
+- [ ] div
+- [ ] em
+- [ ] embed
+- [ ] fieldset
