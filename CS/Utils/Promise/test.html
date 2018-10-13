@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+aded
+<script>
+    var num = 100;
+    var prm = new Promise(function(res){
+        if(num ===
+         100 ){
+            res(num);
+        }
+    }) 
+    prm.then(function(num){
+        if(num === 100){
+            console.log(2)
+        }
+    })
+    console.log(1);
+    prm.then(function(num){
+        if(num === 100){
+            console.log(3)
+        }
+    })
+    
+</script>
+<script src="./node_modules/asap/asap.js"></script>
+<script src="./promiseCore.js"></script>
+</body>
+</html>
+
+

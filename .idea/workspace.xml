@@ -4,17 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" line="4" mnemonic="3" />
     <bookmark url="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" line="6" mnemonic="9" />
     <bookmark url="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" line="143" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" line="28" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" line="144" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4583d1b2-d181-4361-a095-8f210f8aa29f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS/Utils/JqueryVM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" beforeDir="false" afterPath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS/Utils/Methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS/Utils/Promise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS/Utils/Promise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS/data_struct/algorithm/回文/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,13 +65,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1009182366">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
+            <state relative-caret-position="60">
               <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
@@ -83,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
+            <state relative-caret-position="1080">
               <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -93,12 +119,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="384">
               <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
               <folding>
+                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#1;n#!!top" expanded="true" />
                 <element signature="e#216#258#0" />
                 <element signature="e#310#454#0" />
                 <element signature="e#371#452#0" />
@@ -129,10 +157,14 @@
                 <element signature="e#3910#4000#0" />
                 <element signature="n#!!block;n#l1#0" />
                 <element signature="e#4227#4327#0" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="e#4333#4407#0" />
                 <element signature="e#4599#4819#0" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#!!block;n#l2#0" />
                 <element signature="n#!!block;n#l3#0" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#1;n#!!top" expanded="true" />
                 <element signature="n#!!block;n#l4#0" />
                 <element signature="e#5346#5658#0" />
                 <element signature="e#5440#5652#0" />
@@ -328,6 +360,48 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="157" column="47" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="47" />
+              <folding>
+                <element signature="e#303#371#0" />
+                <element signature="e#553#610#0" />
+                <element signature="n#!!block;n#tryCallOne#0" />
+                <element signature="e#852#881#0" />
+                <element signature="e#893#950#0" />
+                <element signature="e#1178#1254#0" />
+                <element signature="e#1289#1378#0" />
+                <element signature="e#1777#2015#0" />
+                <element signature="e#1840#1903#0" />
+                <element signature="n#!!block;n#safeThen#0" />
+                <element signature="e#2128#2272#0" />
+                <element signature="n#!!block;n#handle#0" />
+                <element signature="e#2341#2376#0" />
+                <element signature="e#2404#2444#0" />
+                <element signature="e#2472#2850#0" />
+                <element signature="e#2513#2621#0" />
+                <element signature="e#2661#2788#0" />
+                <element signature="n#!!block;n#handleResolved#0" />
+                <element signature="e#2952#3480#0" />
+                <element signature="e#3060#3274#0" />
+                <element signature="e#3097#3168#0" />
+                <element signature="e#3174#3244#0" />
+                <element signature="e#3352#3413#0" />
+                <element signature="e#3419#3474#0" />
+                <element signature="e#4557#4607#0" />
+                <element signature="n#!!block;n#finale#0" />
+                <element signature="e#4687#4765#0" />
+                <element signature="e#4801#4955#0" />
+                <element signature="e#4860#4917#0" />
+                <element signature="n#!!block;n#Handler#0" />
+                <element signature="n#!!doc;n#doResolve#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -372,6 +446,7 @@
         <option value="$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" />
         <option value="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" />
         <option value="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" />
+        <option value="$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" />
       </list>
     </option>
   </component>
@@ -400,11 +475,9 @@
       <path value="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="246" />
-    <option name="y" value="1" />
-    <option name="width" value="1117" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -420,6 +493,24 @@
             <path>
               <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
               <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
+              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Promise" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -474,16 +565,17 @@
       <workItem from="1534302735042" duration="9773000" />
       <workItem from="1534387230958" duration="14820000" />
       <workItem from="1534471666397" duration="22000" />
+      <workItem from="1538048525504" duration="554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57136000" />
+    <option name="totallyTimeSpent" value="57690000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="1" width="1117" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68566775" visible="true" weight="0.42685184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68566775" visible="true" weight="0.2814949" />
       <window_info id="Structure" order="1" sideWeight="0.6107492" weight="0.24981412" />
       <window_info id="Favorites" order="2" sideWeight="0.38925081" side_tool="true" weight="0.24981412" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,14 +623,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/readme.md" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.iterable.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="948">
@@ -574,23 +659,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
-            <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Historical-ranking-data-visualization-based-on-d3.js/dist/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/../Historical-ranking-data-visualization-based-on-d3.js/dist/config.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -608,14 +678,14 @@
     <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/index.html" />
     <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="60">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
+        <state relative-caret-position="1080">
           <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -626,9 +696,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="384">
           <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
           <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#1;n#!!top" expanded="true" />
             <element signature="e#216#258#0" />
             <element signature="e#310#454#0" />
             <element signature="e#371#452#0" />
@@ -659,10 +731,14 @@
             <element signature="e#3910#4000#0" />
             <element signature="n#!!block;n#l1#0" />
             <element signature="e#4227#4327#0" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="e#4333#4407#0" />
             <element signature="e#4599#4819#0" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#!!block;n#l2#0" />
             <element signature="n#!!block;n#l3#0" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#!!top" expanded="true" />
             <element signature="n#!!block;n#l4#0" />
             <element signature="e#5346#5658#0" />
             <element signature="e#5440#5652#0" />
@@ -853,6 +929,46 @@
             <element signature="e#35167#35289#0" />
             <element signature="e#35568#35817#0" />
             <element signature="e#35606#35807#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="157" column="47" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="47" />
+          <folding>
+            <element signature="e#303#371#0" />
+            <element signature="e#553#610#0" />
+            <element signature="n#!!block;n#tryCallOne#0" />
+            <element signature="e#852#881#0" />
+            <element signature="e#893#950#0" />
+            <element signature="e#1178#1254#0" />
+            <element signature="e#1289#1378#0" />
+            <element signature="e#1777#2015#0" />
+            <element signature="e#1840#1903#0" />
+            <element signature="n#!!block;n#safeThen#0" />
+            <element signature="e#2128#2272#0" />
+            <element signature="n#!!block;n#handle#0" />
+            <element signature="e#2341#2376#0" />
+            <element signature="e#2404#2444#0" />
+            <element signature="e#2472#2850#0" />
+            <element signature="e#2513#2621#0" />
+            <element signature="e#2661#2788#0" />
+            <element signature="n#!!block;n#handleResolved#0" />
+            <element signature="e#2952#3480#0" />
+            <element signature="e#3060#3274#0" />
+            <element signature="e#3097#3168#0" />
+            <element signature="e#3174#3244#0" />
+            <element signature="e#3352#3413#0" />
+            <element signature="e#3419#3474#0" />
+            <element signature="e#4557#4607#0" />
+            <element signature="n#!!block;n#finale#0" />
+            <element signature="e#4687#4765#0" />
+            <element signature="e#4801#4955#0" />
+            <element signature="e#4860#4917#0" />
+            <element signature="n#!!block;n#Handler#0" />
+            <element signature="n#!!doc;n#doResolve#0" />
           </folding>
         </state>
       </provider>

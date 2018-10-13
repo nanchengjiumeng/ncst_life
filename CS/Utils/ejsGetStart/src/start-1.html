@@ -2,9 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ejs get start</title>
 </head>
 <body>
-$END$
+
 </body>
 </html>
+<script src="../node_modules/ejs/ejs.js"></script>
+<script>
+let people = [ 'wang', 'li', 'li' ],
+    html =  ejs.render('<%= people.join(","); %>',{ people: people })
+
+
+
+
+</script>
