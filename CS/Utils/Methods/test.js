@@ -27,4 +27,3 @@ function Methods() {
 
     }
 }
-var methods = Methods();
