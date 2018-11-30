@@ -1,17 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" line="4" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" line="6" mnemonic="9" />
-    <bookmark url="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" line="143" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" line="144" mnemonic="1" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="4583d1b2-d181-4361-a095-8f210f8aa29f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CS/Utils/Methods/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/Utils/Promise/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/Utils/Promise/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CS/data_struct/algorithm/回文/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/.idea/Utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ClientDetection/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Methods/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/.idea/Promise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/asap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/browser-asap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/browser-raw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/node_modules/asap/raw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/Promise/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/QR_core/qrcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/.idea/TESTALLTAGS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/.idea/ejsGetStart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/Jakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/ejs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/lib/ejs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/node_modules/ejs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/ejsGetStart/src/start-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/notes/LeiLeiEverydayArticle.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/notes/allHTMLTags.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/ASPdotNet/SchoolExpress.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/GluttonousSnake/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/GluttonousSnake/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/GluttonousSnake/js/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/1.mvvm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/2.mvvm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/dirty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.esm.browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.runtime.common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.runtime.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/dist/vue.runtime.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/codegen/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/codegen/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/create-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/directives/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/directives/on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/error-detector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/parser/entity-decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/parser/filter-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/parser/html-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/parser/text-parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/compiler/to-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/components/keep-alive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/global-api/assets.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/global-api/extend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/global-api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/global-api/mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/global-api/use.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/inject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/lifecycle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/render-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/render-slot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/render-static.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/instance/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/dep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/scheduler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/traverse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/observer/watcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/lang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/next-tick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/perf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/util/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/create-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/create-element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/create-functional-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/extract-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/merge-hook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/normalize-children.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/helpers/update-listeners.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/modules/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/modules/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/core/vdom/vnode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/directives/html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/directives/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/modules/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/compiler/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/entry-runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/entry-server-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/class-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/runtime/transition-util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/directives/show.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/modules/dom-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/compat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/web/util/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/directives/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/append.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/compiler/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/entry-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/entry-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/components/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/components/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/directives/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/style.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/node-ops.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/runtime/text-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/util/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/platforms/weex/util/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/bundle-renderer/source-map-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/create-basic-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/create-renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/optimizing-compiler/codegen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/optimizing-compiler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/optimizing-compiler/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/optimizing-compiler/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/render-context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/render-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/template-renderer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/template-renderer/parse-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/template-renderer/template-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/webpack-plugin/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/webpack-plugin/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/webpack-plugin/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/server/write.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/sfc/parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/shared/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/src/shared/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/types/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/types/plugin.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/types/vnode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/types/vue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS/web/vue_MVVM/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,338 +325,88 @@
     <session id="-1009182366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="6" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="6" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="html" value="452" />
           <entry key="js" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="452" />
           <entry key="JavaScript" value="7" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ncst_life" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/5.圣杯布局.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-              <folding>
-                <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#1;n#!!top" expanded="true" />
-                <element signature="e#216#258#0" />
-                <element signature="e#310#454#0" />
-                <element signature="e#371#452#0" />
-                <element signature="e#488#526#0" />
-                <element signature="e#548#792#0" />
-                <element signature="e#558#619#0" />
-                <element signature="e#643#790#0" />
-                <element signature="e#657#729#0" />
-                <element signature="e#745#784#0" />
-                <element signature="e#807#844#0" />
-                <element signature="n#!!block;n#zhenbi_com#0" />
-                <element signature="e#1731#3417#0" />
-                <element signature="e#1912#2225#0" />
-                <element signature="e#1940#2037#0" />
-                <element signature="e#2043#2215#0" />
-                <element signature="e#2269#3120#0" />
-                <element signature="e#2297#2419#0" />
-                <element signature="e#2439#2746#0" />
-                <element signature="e#2766#2892#0" />
-                <element signature="e#2912#3008#0" />
-                <element signature="e#3014#3110#0" />
-                <element signature="e#3126#3411#0" />
-                <element signature="e#3272#3394#0" />
-                <element signature="n#!!block;n#go#0" />
-                <element signature="e#3499#3603#0" />
-                <element signature="n#!!block;n#l0#0" />
-                <element signature="e#3660#3688#0" />
-                <element signature="e#3910#4000#0" />
-                <element signature="n#!!block;n#l1#0" />
-                <element signature="e#4227#4327#0" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="e#4333#4407#0" />
-                <element signature="e#4599#4819#0" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#!!block;n#l2#0" />
-                <element signature="n#!!block;n#l3#0" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#!!top" expanded="true" />
-                <element signature="n#!!block;n#l4#0" />
-                <element signature="e#5346#5658#0" />
-                <element signature="e#5440#5652#0" />
-                <element signature="e#5572#5642#0" />
-                <element signature="e#5664#5883#0" />
-                <element signature="e#5764#5877#0" />
-                <element signature="n#!!block;n#img#0" />
-                <element signature="e#6146#35957#0" />
-                <element signature="e#6251#6303#0" />
-                <element signature="e#6327#6456#0" />
-                <element signature="e#6353#6386#0" />
-                <element signature="e#6414#6450#0" />
-                <element signature="e#6482#6646#0" />
-                <element signature="e#6505#6618#0" />
-                <element signature="e#6675#7414#0" />
-                <element signature="e#6812#6899#0" />
-                <element signature="e#6841#6889#0" />
-                <element signature="e#7003#7387#0" />
-                <element signature="e#7079#7377#0" />
-                <element signature="e#7438#8045#0" />
-                <element signature="e#7635#8039#0" />
-                <element signature="e#7745#8029#0" />
-                <element signature="e#7804#7961#0" />
-                <element signature="e#7830#7898#0" />
-                <element signature="e#7920#7943#0" />
-                <element signature="e#8072#8228#0" />
-                <element signature="e#8112#8222#0" />
-                <element signature="e#8164#8212#0" />
-                <element signature="e#8387#8433#0" />
-                <element signature="e#8470#8640#0" />
-                <element signature="e#8509#8634#0" />
-                <element signature="e#8677#8766#0" />
-                <element signature="e#8808#8994#0" />
-                <element signature="e#8843#8905#0" />
-                <element signature="e#8931#8988#0" />
-                <element signature="e#9031#9476#0" />
-                <element signature="e#9050#9080#0" />
-                <element signature="e#9115#9260#0" />
-                <element signature="e#9298#9402#0" />
-                <element signature="e#9429#9470#0" />
-                <element signature="e#9510#9915#0" />
-                <element signature="e#9595#9736#0" />
-                <element signature="e#9612#9697#0" />
-                <element signature="e#9814#9887#0" />
-                <element signature="e#9950#10004#0" />
-                <element signature="e#10039#10367#0" />
-                <element signature="e#10083#10123#0" />
-                <element signature="e#10167#10231#0" />
-                <element signature="e#10271#10333#0" />
-                <element signature="e#10397#10954#0" />
-                <element signature="e#10451#10522#0" />
-                <element signature="e#10604#10686#0" />
-                <element signature="e#10801#10905#0" />
-                <element signature="e#10911#10948#0" />
-                <element signature="e#10985#11556#0" />
-                <element signature="e#11038#11108#0" />
-                <element signature="e#11194#11280#0" />
-                <element signature="e#11399#11507#0" />
-                <element signature="e#11513#11550#0" />
-                <element signature="e#11582#15596#0" />
-                <element signature="e#11760#12134#0" />
-                <element signature="e#12172#12767#0" />
-                <element signature="e#12241#12308#0" />
-                <element signature="e#12350#12421#0" />
-                <element signature="e#12458#12517#0" />
-                <element signature="e#12555#12621#0" />
-                <element signature="e#12662#12731#0" />
-                <element signature="e#12811#14662#0" />
-                <element signature="e#12950#12994#0" />
-                <element signature="e#13086#13133#0" />
-                <element signature="e#13169#13350#0" />
-                <element signature="e#13356#14594#0" />
-                <element signature="e#13400#13560#0" />
-                <element signature="e#13566#14541#0" />
-                <element signature="e#13607#13876#0" />
-                <element signature="e#13699#13772#0" />
-                <element signature="e#13778#13854#0" />
-                <element signature="e#13882#14474#0" />
-                <element signature="e#13941#14031#0" />
-                <element signature="e#14037#14410#0" />
-                <element signature="e#14116#14201#0" />
-                <element signature="e#14207#14321#0" />
-                <element signature="e#14706#15532#0" />
-                <element signature="e#14759#15499#0" />
-                <element signature="e#14840#14921#0" />
-                <element signature="e#14977#15044#0" />
-                <element signature="e#15102#15226#0" />
-                <element signature="e#15267#15316#0" />
-                <element signature="e#15322#15485#0" />
-                <element signature="e#15551#15590#0" />
-                <element signature="e#15633#35955#0" />
-                <element signature="e#16606#16707#0" />
-                <element signature="e#16648#16697#0" />
-                <element signature="e#16746#16837#0" />
-                <element signature="e#16781#16827#0" />
-                <element signature="e#16877#18595#0" />
-                <element signature="e#16913#18585#0" />
-                <element signature="e#17194#17878#0" />
-                <element signature="e#17259#17395#0" />
-                <element signature="e#17416#17552#0" />
-                <element signature="e#17573#17708#0" />
-                <element signature="e#17729#17860#0" />
-                <element signature="e#17971#18054#0" />
-                <element signature="e#18060#18530#0" />
-                <element signature="e#18636#19834#0" />
-                <element signature="e#18669#18719#0" />
-                <element signature="e#18725#19824#0" />
-                <element signature="e#18761#19224#0" />
-                <element signature="e#18837#19206#0" />
-                <element signature="e#19286#19680#0" />
-                <element signature="e#19727#19746#0" />
-                <element signature="e#19752#19810#0" />
-                <element signature="e#19880#20779#0" />
-                <element signature="e#19937#20230#0" />
-                <element signature="e#20015#20082#0" />
-                <element signature="e#20114#20173#0" />
-                <element signature="e#20286#20569#0" />
-                <element signature="e#20626#20669#0" />
-                <element signature="e#20726#20769#0" />
-                <element signature="e#20830#21197#0" />
-                <element signature="e#21248#21817#0" />
-                <element signature="e#21602#21654#0" />
-                <element signature="e#21685#21737#0" />
-                <element signature="e#21867#22503#0" />
-                <element signature="e#21960#22004#0" />
-                <element signature="e#22010#22493#0" />
-                <element signature="e#22051#22227#0" />
-                <element signature="e#22233#22451#0" />
-                <element signature="e#22541#22766#0" />
-                <element signature="e#22803#23158#0" />
-                <element signature="e#22955#23006#0" />
-                <element signature="e#23194#23870#0" />
-                <element signature="e#23224#23272#0" />
-                <element signature="e#23439#23860#0" />
-                <element signature="e#23492#23537#0" />
-                <element signature="e#23554#23599#0" />
-                <element signature="e#23616#23661#0" />
-                <element signature="e#23678#23723#0" />
-                <element signature="e#23740#23785#0" />
-                <element signature="e#23802#23846#0" />
-                <element signature="e#23904#24032#0" />
-                <element signature="e#24068#31544#0" />
-                <element signature="e#24098#25754#0" />
-                <element signature="e#24128#24786#0" />
-                <element signature="e#24869#25151#0" />
-                <element signature="e#25847#25893#0" />
-                <element signature="e#25939#25987#0" />
-                <element signature="e#26034#26476#0" />
-                <element signature="e#26076#26462#0" />
-                <element signature="e#26206#26280#0" />
-                <element signature="e#26311#26398#0" />
-                <element signature="e#26541#26699#0" />
-                <element signature="e#26572#26685#0" />
-                <element signature="e#26747#26973#0" />
-                <element signature="e#26788#26857#0" />
-                <element signature="e#27038#27196#0" />
-                <element signature="e#27069#27182#0" />
-                <element signature="e#27244#27360#0" />
-                <element signature="e#29553#29616#0" />
-                <element signature="e#29632#29692#0" />
-                <element signature="e#29730#30042#0" />
-                <element signature="e#30622#30684#0" />
-                <element signature="e#30700#30759#0" />
-                <element signature="e#30804#30853#0" />
-                <element signature="e#31580#31935#0" />
-                <element signature="e#31966#32728#0" />
-                <element signature="e#32508#32718#0" />
-                <element signature="e#32759#32992#0" />
-                <element signature="e#33027#33095#0" />
-                <element signature="e#33127#33316#0" />
-                <element signature="e#33170#33220#0" />
-                <element signature="e#33257#33306#0" />
-                <element signature="e#33347#33450#0" />
-                <element signature="e#33390#33440#0" />
-                <element signature="e#33479#33773#0" />
-                <element signature="e#33802#34003#0" />
-                <element signature="e#34048#34322#0" />
-                <element signature="e#34090#34312#0" />
-                <element signature="e#34156#34224#0" />
-                <element signature="e#34230#34298#0" />
-                <element signature="e#34681#34778#0" />
-                <element signature="e#34719#34768#0" />
-                <element signature="e#34829#35094#0" />
-                <element signature="e#34859#35029#0" />
-                <element signature="e#34907#35011#0" />
-                <element signature="e#35035#35084#0" />
-                <element signature="e#35123#35541#0" />
-                <element signature="e#35167#35289#0" />
-                <element signature="e#35568#35817#0" />
-                <element signature="e#35606#35807#0" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/2.水平垂直居中布局.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="157" column="47" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="47" />
-              <folding>
-                <element signature="e#303#371#0" />
-                <element signature="e#553#610#0" />
-                <element signature="n#!!block;n#tryCallOne#0" />
-                <element signature="e#852#881#0" />
-                <element signature="e#893#950#0" />
-                <element signature="e#1178#1254#0" />
-                <element signature="e#1289#1378#0" />
-                <element signature="e#1777#2015#0" />
-                <element signature="e#1840#1903#0" />
-                <element signature="n#!!block;n#safeThen#0" />
-                <element signature="e#2128#2272#0" />
-                <element signature="n#!!block;n#handle#0" />
-                <element signature="e#2341#2376#0" />
-                <element signature="e#2404#2444#0" />
-                <element signature="e#2472#2850#0" />
-                <element signature="e#2513#2621#0" />
-                <element signature="e#2661#2788#0" />
-                <element signature="n#!!block;n#handleResolved#0" />
-                <element signature="e#2952#3480#0" />
-                <element signature="e#3060#3274#0" />
-                <element signature="e#3097#3168#0" />
-                <element signature="e#3174#3244#0" />
-                <element signature="e#3352#3413#0" />
-                <element signature="e#3419#3474#0" />
-                <element signature="e#4557#4607#0" />
-                <element signature="n#!!block;n#finale#0" />
-                <element signature="e#4687#4765#0" />
-                <element signature="e#4801#4955#0" />
-                <element signature="e#4860#4917#0" />
-                <element signature="n#!!block;n#Handler#0" />
-                <element signature="n#!!doc;n#doResolve#0" />
-              </folding>
+            <state relative-caret-position="115">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/6.双飞翼布局.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/1.柱形图.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/4.并排等分，单排对齐靠左布局.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/3.多列布局.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -447,6 +454,9 @@
         <option value="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" />
         <option value="$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" />
         <option value="$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" />
+        <option value="$PROJECT_DIR$/frontEnd/finishing/css layout/5.圣杯布局.html" />
+        <option value="$PROJECT_DIR$/frontEnd/finishing/css layout/6.双飞翼布局.html" />
+        <option value="$PROJECT_DIR$/frontEnd/finishing/css layout/2.水平垂直居中布局.html" />
       </list>
     </option>
   </component>
@@ -466,13 +476,16 @@
     <scope name="Unnamed" pattern="" />
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules" />
+    <handled-path value="$PROJECT_DIR$/frontEnd/code learning/Promise/node_modules" />
+    <handled-path value="$PROJECT_DIR$/frontEnd/code learning/ejsGetStart/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/CS/app/translate/package.json" />
       <path value="$PROJECT_DIR$/CS/web/meadowlark/package.json" />
-      <path value="$PROJECT_DIR$/CS/web/vue_MVVM/node_modules/vue/package.json" />
+      <path value="$PROJECT_DIR$/frontEnd/code learning/Promise/package.json" />
+      <path value="$PROJECT_DIR$/frontEnd/code learning/ejsGetStart/package.json" />
+      <path value="$PROJECT_DIR$/frontEnd/code learning/vue_MVVM/node_modules/vue/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -497,20 +510,13 @@
             <path>
               <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
               <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
-              <item name="CS" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
               <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
-              <item name="CS" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ncst_life" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ncst_life" type="462c0819:PsiDirectoryNode" />
-              <item name="CS" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="Promise" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="finishing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -524,7 +530,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -566,18 +572,20 @@
       <workItem from="1534387230958" duration="14820000" />
       <workItem from="1534471666397" duration="22000" />
       <workItem from="1538048525504" duration="554000" />
+      <workItem from="1541751180044" duration="3682000" />
+      <workItem from="1541989656880" duration="8116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57690000" />
+    <option name="totallyTimeSpent" value="69488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68566775" visible="true" weight="0.2814949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6363636" visible="true" weight="0.2814949" />
       <window_info id="Structure" order="1" sideWeight="0.6107492" weight="0.24981412" />
-      <window_info id="Favorites" order="2" sideWeight="0.38925081" side_tool="true" weight="0.24981412" />
+      <window_info id="Favorites" order="2" sideWeight="0.36363637" side_tool="true" weight="0.2814949" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -609,20 +617,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/js/js.js" />
+    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/css/style.css" />
     <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/readme.md" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.iterable.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,34 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/1.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/2.mvvm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/dirty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/1.mvvm.html" />
+    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/2.mvvm.html" />
+    <entry file="file://$PROJECT_DIR$/CS/web/vue_MVVM/dirty.js" />
+    <entry file="file://$PROJECT_DIR$/CS/web/GluttonousSnake/index.html" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/../Historical-ranking-data-visualization-based-on-d3.js/dist/config.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
@@ -668,308 +640,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="397" selection-start-line="397" selection-end-line="397" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CS/Utils/hereNotNeedJquery/here.js" />
     <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/index.html" />
-    <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js">
+    <entry file="file://$PROJECT_DIR$/CS/Utils/JqueryVM/test.js" />
+    <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html" />
+    <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js" />
+    <entry file="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js" />
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/5.圣杯布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/index.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/6.双飞翼布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="n#style#0;n#col#0;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#col#1;n#colgroup#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/Utils/TESTALLTAGS/ttt.js">
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/1.柱形图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="153" column="1" selection-start-line="153" selection-start-column="1" selection-end-line="153" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#1;n#!!top" expanded="true" />
-            <element signature="e#216#258#0" />
-            <element signature="e#310#454#0" />
-            <element signature="e#371#452#0" />
-            <element signature="e#488#526#0" />
-            <element signature="e#548#792#0" />
-            <element signature="e#558#619#0" />
-            <element signature="e#643#790#0" />
-            <element signature="e#657#729#0" />
-            <element signature="e#745#784#0" />
-            <element signature="e#807#844#0" />
-            <element signature="n#!!block;n#zhenbi_com#0" />
-            <element signature="e#1731#3417#0" />
-            <element signature="e#1912#2225#0" />
-            <element signature="e#1940#2037#0" />
-            <element signature="e#2043#2215#0" />
-            <element signature="e#2269#3120#0" />
-            <element signature="e#2297#2419#0" />
-            <element signature="e#2439#2746#0" />
-            <element signature="e#2766#2892#0" />
-            <element signature="e#2912#3008#0" />
-            <element signature="e#3014#3110#0" />
-            <element signature="e#3126#3411#0" />
-            <element signature="e#3272#3394#0" />
-            <element signature="n#!!block;n#go#0" />
-            <element signature="e#3499#3603#0" />
-            <element signature="n#!!block;n#l0#0" />
-            <element signature="e#3660#3688#0" />
-            <element signature="e#3910#4000#0" />
-            <element signature="n#!!block;n#l1#0" />
-            <element signature="e#4227#4327#0" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#4333#4407#0" />
-            <element signature="e#4599#4819#0" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#l2#0" />
-            <element signature="n#!!block;n#l3#0" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#l4#0" />
-            <element signature="e#5346#5658#0" />
-            <element signature="e#5440#5652#0" />
-            <element signature="e#5572#5642#0" />
-            <element signature="e#5664#5883#0" />
-            <element signature="e#5764#5877#0" />
-            <element signature="n#!!block;n#img#0" />
-            <element signature="e#6146#35957#0" />
-            <element signature="e#6251#6303#0" />
-            <element signature="e#6327#6456#0" />
-            <element signature="e#6353#6386#0" />
-            <element signature="e#6414#6450#0" />
-            <element signature="e#6482#6646#0" />
-            <element signature="e#6505#6618#0" />
-            <element signature="e#6675#7414#0" />
-            <element signature="e#6812#6899#0" />
-            <element signature="e#6841#6889#0" />
-            <element signature="e#7003#7387#0" />
-            <element signature="e#7079#7377#0" />
-            <element signature="e#7438#8045#0" />
-            <element signature="e#7635#8039#0" />
-            <element signature="e#7745#8029#0" />
-            <element signature="e#7804#7961#0" />
-            <element signature="e#7830#7898#0" />
-            <element signature="e#7920#7943#0" />
-            <element signature="e#8072#8228#0" />
-            <element signature="e#8112#8222#0" />
-            <element signature="e#8164#8212#0" />
-            <element signature="e#8387#8433#0" />
-            <element signature="e#8470#8640#0" />
-            <element signature="e#8509#8634#0" />
-            <element signature="e#8677#8766#0" />
-            <element signature="e#8808#8994#0" />
-            <element signature="e#8843#8905#0" />
-            <element signature="e#8931#8988#0" />
-            <element signature="e#9031#9476#0" />
-            <element signature="e#9050#9080#0" />
-            <element signature="e#9115#9260#0" />
-            <element signature="e#9298#9402#0" />
-            <element signature="e#9429#9470#0" />
-            <element signature="e#9510#9915#0" />
-            <element signature="e#9595#9736#0" />
-            <element signature="e#9612#9697#0" />
-            <element signature="e#9814#9887#0" />
-            <element signature="e#9950#10004#0" />
-            <element signature="e#10039#10367#0" />
-            <element signature="e#10083#10123#0" />
-            <element signature="e#10167#10231#0" />
-            <element signature="e#10271#10333#0" />
-            <element signature="e#10397#10954#0" />
-            <element signature="e#10451#10522#0" />
-            <element signature="e#10604#10686#0" />
-            <element signature="e#10801#10905#0" />
-            <element signature="e#10911#10948#0" />
-            <element signature="e#10985#11556#0" />
-            <element signature="e#11038#11108#0" />
-            <element signature="e#11194#11280#0" />
-            <element signature="e#11399#11507#0" />
-            <element signature="e#11513#11550#0" />
-            <element signature="e#11582#15596#0" />
-            <element signature="e#11760#12134#0" />
-            <element signature="e#12172#12767#0" />
-            <element signature="e#12241#12308#0" />
-            <element signature="e#12350#12421#0" />
-            <element signature="e#12458#12517#0" />
-            <element signature="e#12555#12621#0" />
-            <element signature="e#12662#12731#0" />
-            <element signature="e#12811#14662#0" />
-            <element signature="e#12950#12994#0" />
-            <element signature="e#13086#13133#0" />
-            <element signature="e#13169#13350#0" />
-            <element signature="e#13356#14594#0" />
-            <element signature="e#13400#13560#0" />
-            <element signature="e#13566#14541#0" />
-            <element signature="e#13607#13876#0" />
-            <element signature="e#13699#13772#0" />
-            <element signature="e#13778#13854#0" />
-            <element signature="e#13882#14474#0" />
-            <element signature="e#13941#14031#0" />
-            <element signature="e#14037#14410#0" />
-            <element signature="e#14116#14201#0" />
-            <element signature="e#14207#14321#0" />
-            <element signature="e#14706#15532#0" />
-            <element signature="e#14759#15499#0" />
-            <element signature="e#14840#14921#0" />
-            <element signature="e#14977#15044#0" />
-            <element signature="e#15102#15226#0" />
-            <element signature="e#15267#15316#0" />
-            <element signature="e#15322#15485#0" />
-            <element signature="e#15551#15590#0" />
-            <element signature="e#15633#35955#0" />
-            <element signature="e#16606#16707#0" />
-            <element signature="e#16648#16697#0" />
-            <element signature="e#16746#16837#0" />
-            <element signature="e#16781#16827#0" />
-            <element signature="e#16877#18595#0" />
-            <element signature="e#16913#18585#0" />
-            <element signature="e#17194#17878#0" />
-            <element signature="e#17259#17395#0" />
-            <element signature="e#17416#17552#0" />
-            <element signature="e#17573#17708#0" />
-            <element signature="e#17729#17860#0" />
-            <element signature="e#17971#18054#0" />
-            <element signature="e#18060#18530#0" />
-            <element signature="e#18636#19834#0" />
-            <element signature="e#18669#18719#0" />
-            <element signature="e#18725#19824#0" />
-            <element signature="e#18761#19224#0" />
-            <element signature="e#18837#19206#0" />
-            <element signature="e#19286#19680#0" />
-            <element signature="e#19727#19746#0" />
-            <element signature="e#19752#19810#0" />
-            <element signature="e#19880#20779#0" />
-            <element signature="e#19937#20230#0" />
-            <element signature="e#20015#20082#0" />
-            <element signature="e#20114#20173#0" />
-            <element signature="e#20286#20569#0" />
-            <element signature="e#20626#20669#0" />
-            <element signature="e#20726#20769#0" />
-            <element signature="e#20830#21197#0" />
-            <element signature="e#21248#21817#0" />
-            <element signature="e#21602#21654#0" />
-            <element signature="e#21685#21737#0" />
-            <element signature="e#21867#22503#0" />
-            <element signature="e#21960#22004#0" />
-            <element signature="e#22010#22493#0" />
-            <element signature="e#22051#22227#0" />
-            <element signature="e#22233#22451#0" />
-            <element signature="e#22541#22766#0" />
-            <element signature="e#22803#23158#0" />
-            <element signature="e#22955#23006#0" />
-            <element signature="e#23194#23870#0" />
-            <element signature="e#23224#23272#0" />
-            <element signature="e#23439#23860#0" />
-            <element signature="e#23492#23537#0" />
-            <element signature="e#23554#23599#0" />
-            <element signature="e#23616#23661#0" />
-            <element signature="e#23678#23723#0" />
-            <element signature="e#23740#23785#0" />
-            <element signature="e#23802#23846#0" />
-            <element signature="e#23904#24032#0" />
-            <element signature="e#24068#31544#0" />
-            <element signature="e#24098#25754#0" />
-            <element signature="e#24128#24786#0" />
-            <element signature="e#24869#25151#0" />
-            <element signature="e#25847#25893#0" />
-            <element signature="e#25939#25987#0" />
-            <element signature="e#26034#26476#0" />
-            <element signature="e#26076#26462#0" />
-            <element signature="e#26206#26280#0" />
-            <element signature="e#26311#26398#0" />
-            <element signature="e#26541#26699#0" />
-            <element signature="e#26572#26685#0" />
-            <element signature="e#26747#26973#0" />
-            <element signature="e#26788#26857#0" />
-            <element signature="e#27038#27196#0" />
-            <element signature="e#27069#27182#0" />
-            <element signature="e#27244#27360#0" />
-            <element signature="e#29553#29616#0" />
-            <element signature="e#29632#29692#0" />
-            <element signature="e#29730#30042#0" />
-            <element signature="e#30622#30684#0" />
-            <element signature="e#30700#30759#0" />
-            <element signature="e#30804#30853#0" />
-            <element signature="e#31580#31935#0" />
-            <element signature="e#31966#32728#0" />
-            <element signature="e#32508#32718#0" />
-            <element signature="e#32759#32992#0" />
-            <element signature="e#33027#33095#0" />
-            <element signature="e#33127#33316#0" />
-            <element signature="e#33170#33220#0" />
-            <element signature="e#33257#33306#0" />
-            <element signature="e#33347#33450#0" />
-            <element signature="e#33390#33440#0" />
-            <element signature="e#33479#33773#0" />
-            <element signature="e#33802#34003#0" />
-            <element signature="e#34048#34322#0" />
-            <element signature="e#34090#34312#0" />
-            <element signature="e#34156#34224#0" />
-            <element signature="e#34230#34298#0" />
-            <element signature="e#34681#34778#0" />
-            <element signature="e#34719#34768#0" />
-            <element signature="e#34829#35094#0" />
-            <element signature="e#34859#35029#0" />
-            <element signature="e#34907#35011#0" />
-            <element signature="e#35035#35084#0" />
-            <element signature="e#35123#35541#0" />
-            <element signature="e#35167#35289#0" />
-            <element signature="e#35568#35817#0" />
-            <element signature="e#35606#35807#0" />
-          </folding>
-        </state>
+        <state relative-caret-position="-63" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CS/Utils/Promise/promiseCore.js">
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/4.并排等分，单排对齐靠左布局.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/3.多列布局.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/finishing/css layout/2.水平垂直居中布局.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="157" column="47" selection-start-line="157" selection-start-column="43" selection-end-line="157" selection-end-column="47" />
-          <folding>
-            <element signature="e#303#371#0" />
-            <element signature="e#553#610#0" />
-            <element signature="n#!!block;n#tryCallOne#0" />
-            <element signature="e#852#881#0" />
-            <element signature="e#893#950#0" />
-            <element signature="e#1178#1254#0" />
-            <element signature="e#1289#1378#0" />
-            <element signature="e#1777#2015#0" />
-            <element signature="e#1840#1903#0" />
-            <element signature="n#!!block;n#safeThen#0" />
-            <element signature="e#2128#2272#0" />
-            <element signature="n#!!block;n#handle#0" />
-            <element signature="e#2341#2376#0" />
-            <element signature="e#2404#2444#0" />
-            <element signature="e#2472#2850#0" />
-            <element signature="e#2513#2621#0" />
-            <element signature="e#2661#2788#0" />
-            <element signature="n#!!block;n#handleResolved#0" />
-            <element signature="e#2952#3480#0" />
-            <element signature="e#3060#3274#0" />
-            <element signature="e#3097#3168#0" />
-            <element signature="e#3174#3244#0" />
-            <element signature="e#3352#3413#0" />
-            <element signature="e#3419#3474#0" />
-            <element signature="e#4557#4607#0" />
-            <element signature="n#!!block;n#finale#0" />
-            <element signature="e#4687#4765#0" />
-            <element signature="e#4801#4955#0" />
-            <element signature="e#4860#4917#0" />
-            <element signature="n#!!block;n#Handler#0" />
-            <element signature="n#!!doc;n#doResolve#0" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>

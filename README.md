@@ -7,8 +7,14 @@ my code during computer science
   - coursera
     - algorithm&data struct 
       - assignment
+  - notes
+    - html tags
+    - 公司分享文章
   - Utils 
     - hereNotNeedJquery
-    - jQuery VM
+    - client detection
+    - jQuery VM 
+    - test all html tags
+    
   - WxSN WX公众号-.-
      
